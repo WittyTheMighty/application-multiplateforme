@@ -1,0 +1,101 @@
+.container {
+    height: 100%;
+    display: flex;
+}
+
+#draw-space {
+    width: 800px;
+    height: 600px;
+}
+
+#workSpace {
+    height: 95%;
+}
+
+.drawing {
+    display: grid;
+    width: min-content;
+    outline: none;
+}
+
+#previewDiv {
+    position: relative;
+}
+
+#tool-space {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 100px;
+    width: 800px;
+}
+
+.individual-color {
+    height: 28px;
+    width: 28px;
+    margin: 3px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.add-button {
+    height: 28px;
+    width: 80px;
+    margin: 3px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.colors {
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+mat-slider {
+    width: 460px;
+}
+
+.tool-buttons-container {
+    top: 10px;
+}
+
+.tool-button {
+    border:none;
+    background-color: #FFFFFF;
+    padding: 6px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+}
+
+.color-input {
+    -webkit-appearance: none;
+	border: none;
+    border-radius: 40%;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.slider {
+    margin-left: 168px;
+    span {
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+    }
+}

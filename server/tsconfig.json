@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+            "@app/*": ["./app/*"],
+        }
+    },
+}
